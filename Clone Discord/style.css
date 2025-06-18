@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #404eed;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px;
+    margin-right: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.login button {
+    background-color: white;
+    color: #404eed;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Estilos da seção principal */
+.hero {
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.hero-buttons button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.download-button {
+    background-color: white;
+    color: #404eed;
+    margin-right: 10px;
+}
+
+.open-in-browser {
+    background-color: #23272a;
+    color: white;
+}
+
+/* Estilos das seções de conteúdo */
+.section-1 {
+  background-color: #FFF;
+  padding: 50px;
+}
+
+.section-2 {
+  background-color: #F8F8F8;
+  padding: 50px;
+}
+
+.section-3 {
+  background-color: #FFF;
+  padding: 50px;
+}
+
+.section-4 {
+  background-color: #F8F8F8;
+  padding: 50px;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-4 {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Esconde o menu em telas menores */
+    }
+
+    nav {
+      flex-direction: column;
+    }
+}
