@@ -1,0 +1,183 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+    width: 300px;
+}
+
+.search-bar button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 0 3px 3px 0;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.search-bar button i {
+    color: #888;
+}
+
+.user-icons {
+    display: flex;
+    align-items: center;
+}
+
+.user-icons i {
+    margin-left: 15px;
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+}
+
+.watch-container {
+    display: flex;
+    padding: 20px;
+}
+
+.video-player {
+    width: 70%; 
+    padding-right: 20px;
+}
+
+.video-info {
+    margin-top: 10px;
+}
+
+.video-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.video-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.video-stats p {
+    font-size: 15px;
+    color: #5a5959;
+}
+
+.video-actions button {
+    background-color: transparent;
+    border: none;
+    color: #555;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.video-actions button i {
+    margin-right: 5px;
+}
+
+.channel-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.channel-details {
+    display: flex;
+    align-items: center;
+}
+
+.channel-details img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.channel-name a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.channel-name p {
+    color: #5a5959;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.subscribe-button {
+    background-color: #cc0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.video-description {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.video-description p {
+    margin-top: 5px;
+
+}
+
+.related-videos {
+    width: 30%; /* Ajuste conforme necessário */
+    padding-left: 20px;
+}
+
+.related-videos h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.related-video {
+    display: flex;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.related-video img {
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.related-video-info a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.related-video-info p {
+    font-size: 12px;
+    color: #888;
+    margin: 0;
+}
